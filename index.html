@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .row.content {
+        height: 1500px
+    }
+    
+    .sidenav {
+      background-color: #deb1b1;
+      height: 100%;
+    }
+
+    footer {
+      background-color: rgb(147, 123, 123);
+      color: white;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col col-sm-2 sidenav">
+      <h4>BEYOND THE BLOG</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Explore</a></li>
+        <li><a href="#section2">Self Improvement</a></li>
+        <li><a href="#section3">Health</a></li>
+        <li><a href="#section3">TV + Movies</a></li>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>FEATURED TOPICS</small></h4>
+      <h2>American Horror Story</h2>
+      <h5>ABC Blogger</h5>
+      <p>Ryan Murphy’s anthology horror series American Horror Story has been a favorite of horror fans ever since it premiered with the first season, Murder House, in 2011. Fans love the anthology format — each season has a different setting and storyline — as well as actors like Sarah Paulson and Evan Peters returning to play new characters season after season. Adding to the intrigue is Murphy’s penchant for teasing out the theme of each season with clues before the name is announced as well as hinting that all of the seasons are connected in a meta universe.
+
+    </p>
+      <hr>
+      <h2>Friends</h2>
+      <h5>DEF Blogger</h5>
+      <p>Three young men and three young women -- of the BFF kind -- live in the same apartment complex and face life and love in New York. They're not above sticking their noses into one another's business and swapping romantic partners, which always leads to the kind of hilarity average people will never experience -- especially during breakups.</p>
+      <hr>
+
+      <h4>Future Content Suggestions</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit " class="btn btn-info">Submit</button>
+      </form>
+      <br><br>
+      
+      <p>Others You Might Like</p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+        </div>
+        <div class="col-sm-10">
+          <h4>911</h4>
+          <p>Ryan Murphy, Brad Falchuk and Tim Minear reimagine the procedural drama with "9-1-1." The series explores the high-pressure experiences of first....</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+        </div>
+        <div class="col-sm-10">
+          <h4>House of the Dragon</h4>
+          <p>The reign of House Targaryen begins with this prequel to popular HBO series "Game of Thrones." Based on George R.R. Martin's.....</p>
+          <br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+            </div>
+              <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p></p>
+</footer>
+
+</body>
+</html>
